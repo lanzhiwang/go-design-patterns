@@ -2,6 +2,8 @@ package flyweight
 
 import "fmt"
 
+// 享元模式（Flyweight）
+
 type ImageFlyweightFactory struct {
 	maps map[string]*ImageFlyweight
 }

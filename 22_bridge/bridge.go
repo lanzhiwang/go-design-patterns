@@ -2,6 +2,8 @@ package bridge
 
 import "fmt"
 
+// 桥模式（Bridge）
+
 type AbstractMessage interface {
 	SendMessage(text, to string)
 }

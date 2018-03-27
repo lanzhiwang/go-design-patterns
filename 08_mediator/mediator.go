@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+// 中介者模式（Mediator）
+
 type CDDriver struct {
 	Data string
 }

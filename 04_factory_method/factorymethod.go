@@ -1,5 +1,7 @@
 package factorymethod
 
+//工厂方法模式（Factory Method）
+
 //Operator 是被封装的实际类接口
 type Operator interface {
 	SetA(int)

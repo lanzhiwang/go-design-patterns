@@ -2,6 +2,8 @@ package facade
 
 import "fmt"
 
+// 外观模式（Facade）
+
 func NewAPI() API {
 	return &apiImpl{
 		a: NewAModuleAPI(),

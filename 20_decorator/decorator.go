@@ -1,5 +1,7 @@
 package decorator
 
+// 装饰模式（Decorator）
+
 type Component interface {
 	Calc() int
 }

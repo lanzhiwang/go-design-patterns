@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+// 解释器模式（Interpreter）
+
 type Node interface {
 	Interpret() int
 }

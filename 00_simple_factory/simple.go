@@ -2,6 +2,8 @@ package simplefactory
 
 import "fmt"
 
+//简单工厂模式（Simple Factory）
+
 //API is interface
 type API interface {
 	Say(name string) string

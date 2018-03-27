@@ -2,6 +2,8 @@ package composite
 
 import "fmt"
 
+// 组合模式（Composite）
+
 type Component interface {
 	Parent() Component
 	SetParent(Component)

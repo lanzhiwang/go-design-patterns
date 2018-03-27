@@ -2,6 +2,8 @@ package singleton
 
 import "sync"
 
+// 单例模式（Singleton）
+
 //Singleton 是单例模式类
 type Singleton struct{}
 

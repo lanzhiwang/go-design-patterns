@@ -2,6 +2,8 @@ package visitor
 
 import "fmt"
 
+// 访问者模式（Visitor）
+
 type Customer interface {
 	Accept(Visitor)
 }

@@ -2,6 +2,8 @@ package iterator
 
 import "fmt"
 
+// 迭代器模式（Iterator）
+
 type Aggregate interface {
 	Iterator() Iterator
 }

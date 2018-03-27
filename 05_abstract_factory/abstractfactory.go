@@ -2,6 +2,8 @@ package abstractfactory
 
 import "fmt"
 
+// 抽象工厂模式（Abstract Factory）
+
 //OrderMainDAO 为订单主记录
 type OrderMainDAO interface {
 	SaveOrderMain()

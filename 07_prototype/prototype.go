@@ -1,5 +1,7 @@
 package prototype
 
+// 原型模式（Prototype）
+
 //Cloneable 是原型对象需要实现的接口
 type Cloneable interface {
 	Clone() Cloneable

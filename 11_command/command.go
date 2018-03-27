@@ -2,6 +2,8 @@ package command
 
 import "fmt"
 
+// 命令模式（Command）
+
 type Command interface {
 	Execute()
 }

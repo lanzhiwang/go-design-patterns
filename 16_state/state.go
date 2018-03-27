@@ -2,6 +2,8 @@ package state
 
 import "fmt"
 
+// 状态模式（State）
+
 type Week interface {
 	Today()
 	Next(*DayContext)

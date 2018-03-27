@@ -1,5 +1,7 @@
 package proxy
 
+// 代理模式（Proxy）
+
 type Subject interface {
 	Do() string
 }

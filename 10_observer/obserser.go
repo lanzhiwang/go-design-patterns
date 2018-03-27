@@ -2,6 +2,8 @@ package observer
 
 import "fmt"
 
+// 观察者模式（Observer）
+
 type Subject struct {
 	observers []Observer
 	context   string

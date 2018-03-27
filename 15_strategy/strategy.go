@@ -2,6 +2,8 @@ package strategy
 
 import "fmt"
 
+// 策略模式（Strategy）
+
 type PaymentContext struct {
 	Name, CardID string
 	Money        int

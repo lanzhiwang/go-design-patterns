@@ -2,6 +2,8 @@ package chain
 
 import "fmt"
 
+// 职责链模式（Chain of Responsibility）
+
 type Manager interface {
 	HaveRight(money int) bool
 	HandleFeeRequest(name string, money int) bool

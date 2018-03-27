@@ -2,6 +2,8 @@ package memento
 
 import "fmt"
 
+// 备忘录模式（Memento）
+
 type Memento interface{}
 
 type Game struct {

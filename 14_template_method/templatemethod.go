@@ -2,6 +2,8 @@ package templatemethod
 
 import "fmt"
 
+// 模板方法模式（Template Method）
+
 type Downloader interface {
 	Download(uri string)
 }

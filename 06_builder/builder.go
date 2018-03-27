@@ -1,5 +1,7 @@
 package builder
 
+//创建者模式（Builder）
+
 //Builder 是生成器接口
 type Builder interface {
 	Part1()
